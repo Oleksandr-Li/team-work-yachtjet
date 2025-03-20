@@ -19,11 +19,15 @@ ul {
 }
 
 a {
-  color: currentColor;
+  cursor: url('./img/icons.svg#icon-cursor-pointer'), pointer;
   text-decoration: none;
+  color: currentColor;
+  font-style: normal;
 }
 
 button {
+  font-family: inherit;
+  color: currentColor;
   cursor: pointer;
 }
 
