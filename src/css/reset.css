@@ -19,7 +19,6 @@ ul {
 }
 
 a {
-  cursor: url('./img/icons.svg#icon-cursor-pointer'), pointer;
   text-decoration: none;
   color: currentColor;
   font-style: normal;
