@@ -149,7 +149,7 @@
 
 /*#endregion Desktop*/
 
-/*#region Desctop-2K*/
+/*#region Desctop2K*/
 @media only screen and (min-width: 1440px) {
   .hero {
     background-image: linear-gradient(
@@ -171,4 +171,4 @@
       url(/img/hero/background-pc2k-@2x.jpg);
   }
 }
-/*#endregion Desctop-2K*/
+/*#endregion Desctop2K*/
