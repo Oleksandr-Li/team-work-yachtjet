@@ -1,3 +1,7 @@
+.section.hero {
+  padding: 0;
+}
+
 .hero {
   margin: 0 auto;
   min-width: 320px;
@@ -22,7 +26,7 @@
   }
 }
 
-.hero-conteiner {
+.hero .container {
   padding-top: 260px;
   padding-bottom: 302px;
 }
@@ -52,14 +56,14 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   border-radius: 15px;
-  height: 46px;
+  min-height: 46px;
   background-color: #1b414b;
   display: block;
   margin: 0 auto;
   border: none;
   text-align: center;
   padding: 14px 32px;
-  width: 141px;
+  max-width: 141px;
 }
 
 .hero-button:focus,
@@ -79,7 +83,7 @@
       url(/img/hero/background-tablet.jpg);
   }
 
-  .hero-conteiner {
+  .hero .container {
     padding-top: 280px;
     padding-bottom: 282px;
     padding-left: 58px;
@@ -103,8 +107,8 @@
   .hero-button {
     font-size: 18px;
     line-height: 1.1;
-    width: 179px;
-    height: 52px;
+    max-width: 179px;
+    min-height: 52px;
   }
 }
 
@@ -129,8 +133,8 @@
       ),
       url(/img/hero/background-pc.jpg);
   }
-  .hero-conteiner {
-    padding: 235px 139px 215px 139px;
+  .hero .container {
+    padding: 235px 139px 215px;
   }
   .hero-title {
     max-width: 1002px;
@@ -158,8 +162,8 @@
       ),
       url(/img/hero/background-pc2k.jpg);
   }
-  .hero-conteiner {
-    padding: 235px 219px 215px 219px;
+  .hero .container {
+    padding: 235px 219px 215px;
   }
 }
 @media screen and (min-width: 1440px) and (min-resolution: 2x) {
