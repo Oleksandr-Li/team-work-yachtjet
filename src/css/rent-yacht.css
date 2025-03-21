@@ -1,6 +1,3 @@
-.rent-yacht-container{
-    background-color: #0e1823;
-}
 @media only screen and (min-width: 1280px) {
     .rent-yacht-container {
         display: flex;
