@@ -5,14 +5,15 @@
         Rent a yacht now
       </h2>
       <form class="rent-yacht-form" name="rent-form">
-        <label aria-label><input class="form-input" type="text" name="full-name" placeholder="Full Name"
+        <label aria-label="Full Name"><input class="form-input" type="text" name="full-name" placeholder="Full Name"
             required></label>
-        <label aria-label><input class="form-input" type="email" name="email"
+        <label aria-label="Email"><input class="form-input" type="email" name="email"
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email" required></label>
-        <label aria-label><input class="form-input" type="tel" name="phone-number"
+        <label aria-label="Phone number"><input class="form-input" type="tel" name="phone-number"
             pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$" title="+xx-xxx-xxx-xx-xx" placeholder="Phone number"
             required></label>
-        <label aria-label><textarea class="form-textarea" name="comment" placeholder="Comment"></textarea></label>
+        <label aria-label="Comment"><textarea class="form-textarea" name="comment"
+            placeholder="Comment"></textarea></label>
         <button class="form-btn" type="submit">Send</button>
       </form>
     </div>
